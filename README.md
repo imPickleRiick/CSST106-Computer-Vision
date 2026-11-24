@@ -20,7 +20,9 @@ outputs together with explanations and the OpenCV code behind them.
 
 ## Live web app
 
-Deployed on Streamlit Community Cloud: *(link added after deployment)*
+**https://csst106-computer-vision.streamlit.app/** (Streamlit Community Cloud, deployed from this repository)
+
+If the app has been idle it may show a *"This app has gone to sleep"* page. Click **"Yes, get this app back up!"** and wait about a minute.
 
 ## Run locally
 
