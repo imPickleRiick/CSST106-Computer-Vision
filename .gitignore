@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Training artifacts (final weights are copied into models/ explicitly)
+runs/
+datasets/
+*.cache
+
+# Local secrets
+.streamlit/secrets.toml
+.env
+
+# Instructor handouts (kept locally, not published)
+lab activities/
