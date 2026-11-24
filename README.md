@@ -12,7 +12,7 @@ outputs together with explanations and the OpenCV code behind them.
 |---|---|---|
 | 1 | Image Manipulation | ✅ |
 | 2 | Edge Detection (Sobel, Canny) | ✅ |
-| 3 | Histogram Equalization and Contrast Adjustment | ⏳ |
+| 3 | Histogram Equalization and Contrast Adjustment | ✅ |
 | 4 | SURF Feature Detection | ⏳ |
 | 5 | PCA / Eigenfaces Face Recognition | ⏳ |
 | 6 | YOLOv11 Object Detection | ⏳ |
