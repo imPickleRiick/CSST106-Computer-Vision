@@ -11,7 +11,7 @@ outputs together with explanations and the OpenCV code behind them.
 | Lab | Topic | Status |
 |---|---|---|
 | 1 | Image Manipulation | ✅ |
-| 2 | Edge Detection (Sobel, Canny) | ⏳ |
+| 2 | Edge Detection (Sobel, Canny) | ✅ |
 | 3 | Histogram Equalization and Contrast Adjustment | ⏳ |
 | 4 | SURF Feature Detection | ⏳ |
 | 5 | PCA / Eigenfaces Face Recognition | ⏳ |
