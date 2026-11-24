@@ -15,7 +15,7 @@ outputs together with explanations and the OpenCV code behind them.
 | 3 | Histogram Equalization and Contrast Adjustment | ✅ |
 | 4 | SURF Feature Detection (from-scratch SURF, SIFT, ORB) | ✅ |
 | 5 | PCA / Eigenfaces Face Recognition | ✅ |
-| 6 | YOLOv11 Object Detection | ⏳ |
+| 6 | YOLO11 Object Detection (pre-trained + custom wildlife model) | ✅ |
 | 7 | Image Segmentation | ⏳ |
 
 ## Run locally
@@ -29,6 +29,24 @@ streamlit run app.py
 
 Then open http://localhost:8501.
 
+## Lab 6 custom model
+
+The custom YOLO11n model (`models/lab6/best.pt`) was fine-tuned on the Ultralytics
+*African Wildlife* dataset (buffalo, elephant, rhino, zebra) for 100 epochs at 640 px
+on a Google Colab T4 GPU using [`training/train_lab6_colab.ipynb`](training/train_lab6_colab.ipynb)
+(same code as [`training/train_lab6.py`](training/train_lab6.py)).
+Test set: precision 0.971, recall 0.949, mAP@0.5 0.976, mAP@0.5:0.95 0.833.
+
+Real-time webcam detection (Part 1) runs locally: `python scripts/yolo_webcam.py`.
+
+**Note:** `ultralytics` installs `opencv-python` as a dependency, which clashes with
+`opencv-contrib-python-headless`. After `pip install -r requirements.txt`, run:
+
+```bash
+pip uninstall -y opencv-python
+pip install --force-reinstall --no-deps opencv-contrib-python-headless==4.14.0.94
+```
+
 ## Project structure
 
 ```
@@ -37,6 +55,9 @@ labs/             One Streamlit page per laboratory activity
 cv_core/          The computer vision algorithms for each lab (no UI code)
 utils/ui.py       Shared UI helpers: image input, display, downloads
 assets/samples/   Sample images (scikit-image test images)
+models/           Pre-trained and trained model weights (YOLO)
+training/         Lab 6 training script and Colab notebook
+scripts/          Stand-alone scripts (real-time webcam detection)
 tests/            Automated tests (pytest)
 ```
 

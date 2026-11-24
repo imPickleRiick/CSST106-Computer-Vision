@@ -24,6 +24,8 @@ SAMPLE_DESCRIPTIONS = {
     "coins.png": "Coins (grayscale, touching objects)",
     "moon.png": "Moon surface (grayscale, low contrast)",
     "page_text.png": "Book page (uneven lighting)",
+    "bus.jpg": "Street with bus and people (Ultralytics sample)",
+    "zidane.jpg": "Two people (Ultralytics sample)",
 }
 
 
