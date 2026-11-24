@@ -24,6 +24,12 @@ outputs together with explanations and the OpenCV code behind them.
 
 If the app has been idle it may show a *"This app has gone to sleep"* page. Click **"Yes, get this app back up!"** and wait about a minute.
 
+## Lab report
+
+The laboratory report for all seven activities is in [`report/CSST106_Lab_Report_Mesias.pdf`](report/CSST106_Lab_Report_Mesias.pdf)
+(Word version: [`report/CSST106_Lab_Report_Mesias.docx`](report/CSST106_Lab_Report_Mesias.docx)).
+Its screenshots were taken from the live web app and are in [`report/figures/`](report/figures/).
+
 ## Run locally
 
 ```bash
@@ -57,6 +63,7 @@ assets/samples/   Sample images (scikit-image test images)
 models/           Pre-trained and trained model weights (YOLO)
 training/         Lab 6 training script and Colab notebook
 scripts/          Stand-alone scripts (real-time webcam detection)
+report/           Printed lab report (PDF and Word) and its screenshots
 tests/            Automated tests (pytest)
 ```
 
