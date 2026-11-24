@@ -1,9 +1,10 @@
-# CPU-only PyTorch wheels (much smaller than the CUDA builds)
+# CPU-only PyTorch wheels (much smaller than the CUDA builds).
+# Versions below are pinned to ones that exist on both PyPI and the PyTorch CPU index.
 --extra-index-url https://download.pytorch.org/whl/cpu
 
 streamlit==1.67.0
-opencv-contrib-python-headless==4.14.0.94
-numpy==2.5.5
+opencv-python==4.14.0.94
+numpy==2.5.4
 pandas==3.1.1
 matplotlib==3.11.2
 scikit-learn==1.9.1
@@ -13,7 +14,7 @@ pillow==13.0.0
 
 # Lab 6 (YOLO11) and Lab 7 (DeepLabV3)
 torch==2.15.0
-torchvision==0.29.2
+torchvision==0.29.1
 ultralytics==8.4.218
 imageio==2.38.2
 imageio-ffmpeg==0.8.1

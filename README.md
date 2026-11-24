@@ -18,6 +18,10 @@ outputs together with explanations and the OpenCV code behind them.
 | 6 | YOLO11 Object Detection (pre-trained + custom wildlife model) | ✅ |
 | 7 | Image Segmentation (thresholding, region, edge, DeepLabV3) | ✅ |
 
+## Live web app
+
+Deployed on Streamlit Community Cloud: *(link added after deployment)*
+
 ## Run locally
 
 ```bash
@@ -39,13 +43,6 @@ Test set: precision 0.971, recall 0.949, mAP@0.5 0.976, mAP@0.5:0.95 0.833.
 
 Real-time webcam detection (Part 1) runs locally: `python scripts/yolo_webcam.py`.
 
-**Note:** `ultralytics` installs `opencv-python` as a dependency, which clashes with
-`opencv-contrib-python-headless`. After `pip install -r requirements.txt`, run:
-
-```bash
-pip uninstall -y opencv-python
-pip install --force-reinstall --no-deps opencv-contrib-python-headless==4.14.0.94
-```
 
 ## Project structure
 
