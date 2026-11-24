@@ -14,7 +14,7 @@ outputs together with explanations and the OpenCV code behind them.
 | 2 | Edge Detection (Sobel, Canny) | ✅ |
 | 3 | Histogram Equalization and Contrast Adjustment | ✅ |
 | 4 | SURF Feature Detection (from-scratch SURF, SIFT, ORB) | ✅ |
-| 5 | PCA / Eigenfaces Face Recognition | ⏳ |
+| 5 | PCA / Eigenfaces Face Recognition | ✅ |
 | 6 | YOLOv11 Object Detection | ⏳ |
 | 7 | Image Segmentation | ⏳ |
 
