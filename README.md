@@ -16,7 +16,7 @@ outputs together with explanations and the OpenCV code behind them.
 | 4 | SURF Feature Detection (from-scratch SURF, SIFT, ORB) | ✅ |
 | 5 | PCA / Eigenfaces Face Recognition | ✅ |
 | 6 | YOLO11 Object Detection (pre-trained + custom wildlife model) | ✅ |
-| 7 | Image Segmentation | ⏳ |
+| 7 | Image Segmentation (thresholding, region, edge, DeepLabV3) | ✅ |
 
 ## Run locally
 
